@@ -22,7 +22,7 @@ def predict_weather(image):
     predictions = model.predict(preprocessed_image)
     return (np.argmax(predictions), 100 * np.amax(predictions))
 
-p = predict_weather('images/cloudy5.jpg')
-print(p)
+#p = predict_weather('images/cloudy5.jpg')
+#print(p)
 
 
